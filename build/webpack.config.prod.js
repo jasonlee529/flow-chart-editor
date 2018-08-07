@@ -65,7 +65,7 @@ module.exports = merge(baseWebpackConfig, {
     //   chunks: ["index"]
     // }),
     new webpack.BannerPlugin(
-      'flow-chart-editor \nauthor: tlzzu@outlook.com \ncreatetime: ' + new Date().toUTCString(),
+      'flow-chart-editor \nauthor: tlzzu@outlook.com \ncreatetime: ' + new Date().toUTCString()
     ), // js中的备注
   ],
 });

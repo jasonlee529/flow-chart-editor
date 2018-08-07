@@ -4,12 +4,18 @@ window.onload = function() {
     el: document.getElementById('fce'),
     rightMenus: [{
       id: "id_alert",
-      content: "弹出窗",
-      tooltipText: "弹出窗",
-      selector: "node,edge", //当在node,edge元素上右键时才显示
-      onClickFunction: function(evt) { //点击后触发事件
+      content: "修改类型",
+      tooltipText: "修改类型",
+      selector: "node", //当在node,edge元素上右键时才显示
+      onClickFunction: function(evt, clickType, data) { //点击后触发事件
+        console.log(arguments);
         var target = evt.target || evt.cyTarget;
-        alert('弹出信息！');
+        const label = prompt('请输入节点新名称：', data.label);
+        if (label) {
+          data.label = label;
+          this.rename(data);
+        }
+       
       },
       hasTrailingDivider: true
     }],
@@ -17,7 +23,7 @@ window.onload = function() {
         name: 'rectangle',
         icon: 'images/rectangle.png',
         className: '',
-        title: '矩形',
+        title: '属性',
         exec: function(evt, clickType, obj) {
           const label = prompt('请输入节点名称：'),
             data = { id: new Date().getTime(), label: label };
@@ -27,12 +33,11 @@ window.onload = function() {
           }
           this.addNode(data, 'rectangle');
         },
-      },
-      {
-        name: 'rounded_rectangle',
-        icon: 'images/rounded_rectangle.png',
+      },{
+        name: 'calculate',
+        icon: 'images/triangle.png',
         className: '',
-        title: '圆角矩形',
+        title: '计算',
         exec: function(evt, clickType, obj) {
           const label = prompt('请输入节点名称：'),
             data = { id: new Date().getTime(), label: label };
@@ -40,14 +45,28 @@ window.onload = function() {
           if (clickType === 'node') {
             data.parent = obj.id;
           }
-          this.addNode(data, 'roundrectangle');
+          this.addNode(data, 'triangle');
         },
-      },
+      },      
       {
-        name: 'choice',
-        icon: 'images/choice.png',
+        name: 'round',
+        icon: 'images/round.png',
         className: '',
-        title: '菱形',
+        title: '值',
+        exec: function(evt, clickType, obj) {
+          const label = prompt('请输入节点名称：'),
+            data = { id: new Date().getTime(), label: label };
+          if (!label) return;
+          if (clickType === 'node') {
+            data.parent = obj.id;
+          }
+          this.addNode(data, 'ellipse');
+        },
+      },{
+        name: 'choice',
+        icon: 'images/diamond.png',
+        className: '',
+        title: '逻辑',
         exec: function(evt, clickType, obj) {
           const label = prompt('请输入节点名称：'),
             data = { id: new Date().getTime(), label: label };
@@ -57,12 +76,11 @@ window.onload = function() {
           }
           this.addNode(data, 'diamond');
         },
-      },
-      {
-        name: 'round',
-        icon: 'images/round.png',
+      }, {
+        name: 'label',
+        icon: 'images/star.png',
         className: '',
-        title: '圆形',
+        title: '标签',
         exec: function(evt, clickType, obj) {
           const label = prompt('请输入节点名称：'),
             data = { id: new Date().getTime(), label: label };
@@ -70,7 +88,7 @@ window.onload = function() {
           if (clickType === 'node') {
             data.parent = obj.id;
           }
-          this.addNode(data, 'ellipse');
+          this.addNode(data, 'star');
         },
       },
       {
@@ -135,15 +153,14 @@ window.onload = function() {
           // this.import(json);
           // bar.cancelActive(); //取消自身选中
         },
-      },
-      'animation',
+      }
     ],
   });
   fce.addListener('add_click', function() {
-    debugger;
     console.log('编辑器被点击！');
   });
   fce.addListener('context_menus_rename', function(evt, clickType, data) {
+    console.log(data);
     const label = prompt('请输入节点新名称：', data.label);
     if (label) {
       data.label = label;
