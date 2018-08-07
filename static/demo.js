@@ -7,15 +7,12 @@ window.onload = function() {
       content: "修改类型",
       tooltipText: "修改类型",
       selector: "node", //当在node,edge元素上右键时才显示
-      onClickFunction: function(evt, clickType, data) { //点击后触发事件
-        console.log(arguments);
+      onClickFunction: function(evt) { //点击后触发事件
+        const type = prompt('请输入节点类型：');
         var target = evt.target || evt.cyTarget;
-        const label = prompt('请输入节点新名称：', data.label);
-        if (label) {
-          data.label = label;
-          this.rename(data);
-        }
-       
+        console.log(this);
+        console.log(this.addNode);
+        this.reType(target.data(),type);
       },
       hasTrailingDivider: true
     }],

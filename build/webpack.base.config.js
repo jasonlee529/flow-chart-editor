@@ -8,7 +8,7 @@ module.exports = {
   entry: {
     index: './src/js/index.js',
   },
-  devtool: 'eval-source-map', // 'source-map', // http://www.jianshu.com/p/42e11515c10f
+  devtool: '#eval-source-map', // 'source-map', // http://www.jianshu.com/p/42e11515c10f
   output: {
     filename: 'js/fce.' + version + '.min.js',
     path: path.join(__dirname, '../dist/'),

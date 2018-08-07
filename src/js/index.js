@@ -138,6 +138,9 @@ Object.assign(FCE.prototype, Listener, {
   rename(data) {
     this.cy.$("#" + data.id).data("label", data.label);
   },
+  reType(data,type){
+    this.cy.$("#" + data.id).classes(type);
+  },
   /**
    * 删除元素
    * @param {String} id
