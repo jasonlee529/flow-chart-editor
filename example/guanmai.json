@@ -1,0 +1,722 @@
+{
+    "elements": {
+        "nodes": [
+            {
+                "data": {
+                    "id": "1533642105501",
+                    "label": "胸闷"
+                },
+                "position": {
+                    "x": 90,
+                    "y": 110
+                },
+                "group": "nodes",
+                "removed": false,
+                "selected": false,
+                "selectable": true,
+                "locked": false,
+                "grabbable": true,
+                "classes": "fce-shape-rectangle eh-preview-active"
+            },
+            {
+                "data": {
+                    "id": "1533642118204",
+                    "label": "血压下降"
+                },
+                "position": {
+                    "x": 90,
+                    "y": 170
+                },
+                "group": "nodes",
+                "removed": false,
+                "selected": false,
+                "selectable": true,
+                "locked": false,
+                "grabbable": true,
+                "classes": "fce-shape-rectangle eh-preview-active"
+            },
+            {
+                "data": {
+                    "id": "1533642128829",
+                    "label": "心率增快"
+                },
+                "position": {
+                    "x": 90,
+                    "y": 210
+                },
+                "group": "nodes",
+                "removed": false,
+                "selected": false,
+                "selectable": true,
+                "locked": false,
+                "grabbable": true,
+                "classes": "fce-shape-rectangle eh-preview-active"
+            },
+            {
+                "data": {
+                    "id": "1533642142465",
+                    "label": "心机包液"
+                },
+                "position": {
+                    "x": 90,
+                    "y": 270
+                },
+                "group": "nodes",
+                "removed": false,
+                "selected": false,
+                "selectable": true,
+                "locked": false,
+                "grabbable": true,
+                "classes": "fce-shape-rectangle eh-preview-active"
+            },
+            {
+                "data": {
+                    "id": "1533642160261",
+                    "label": "液性暗区"
+                },
+                "position": {
+                    "x": 90,
+                    "y": 310
+                },
+                "group": "nodes",
+                "removed": false,
+                "selected": false,
+                "selectable": true,
+                "locked": false,
+                "grabbable": true,
+                "classes": "fce-shape-rectangle eh-preview-active"
+            },
+            {
+                "data": {
+                    "id": "1533642196429",
+                    "label": "心包穿刺置管"
+                },
+                "position": {
+                    "x": 90,
+                    "y": 370
+                },
+                "group": "nodes",
+                "removed": false,
+                "selected": false,
+                "selectable": true,
+                "locked": false,
+                "grabbable": true,
+                "classes": "fce-shape-rectangle eh-preview-active"
+            },
+            {
+                "data": {
+                    "id": "1533642206261",
+                    "label": "or"
+                },
+                "position": {
+                    "x": 250,
+                    "y": 230
+                },
+                "group": "nodes",
+                "removed": false,
+                "selected": false,
+                "selectable": true,
+                "locked": false,
+                "grabbable": true,
+                "classes": "fce-shape-diamond eh-preview-active"
+            },
+            {
+                "data": {
+                    "id": "1533642253385",
+                    "label": "心脏破裂"
+                },
+                "position": {
+                    "x": 230,
+                    "y": 390
+                },
+                "group": "nodes",
+                "removed": false,
+                "selected": false,
+                "selectable": true,
+                "locked": false,
+                "grabbable": true,
+                "classes": "fce-shape-rectangle eh-preview-active"
+            },
+            {
+                "data": {
+                    "id": "1533642279705",
+                    "label": "心脏超声心包积液"
+                },
+                "position": {
+                    "x": 90,
+                    "y": 450
+                },
+                "group": "nodes",
+                "removed": false,
+                "selected": false,
+                "selectable": true,
+                "locked": false,
+                "grabbable": true,
+                "classes": "fce-shape-rectangle eh-preview-active"
+            },
+            {
+                "data": {
+                    "id": "1533642298123",
+                    "label": "心血管外科会诊"
+                },
+                "position": {
+                    "x": 90,
+                    "y": 490
+                },
+                "group": "nodes",
+                "removed": false,
+                "selected": false,
+                "selectable": true,
+                "locked": false,
+                "grabbable": true,
+                "classes": "fce-shape-rectangle eh-preview-active"
+            },
+            {
+                "data": {
+                    "id": "1533642315442",
+                    "label": "带膜支架封堵"
+                },
+                "position": {
+                    "x": 90,
+                    "y": 530
+                },
+                "group": "nodes",
+                "removed": false,
+                "selected": false,
+                "selectable": true,
+                "locked": false,
+                "grabbable": true,
+                "classes": "fce-shape-rectangle eh-preview-active"
+            },
+            {
+                "data": {
+                    "id": "1533642332578",
+                    "label": "液性暗区"
+                },
+                "position": {
+                    "x": 90,
+                    "y": 570
+                },
+                "group": "nodes",
+                "removed": false,
+                "selected": false,
+                "selectable": true,
+                "locked": false,
+                "grabbable": true,
+                "classes": "fce-shape-rectangle eh-preview-active"
+            },
+            {
+                "data": {
+                    "id": "1533642365267",
+                    "label": "紧急性心包穿刺管"
+                },
+                "position": {
+                    "x": 230,
+                    "y": 610
+                },
+                "group": "nodes",
+                "removed": false,
+                "selected": false,
+                "selectable": true,
+                "locked": false,
+                "grabbable": true,
+                "classes": "fce-shape-rectangle eh-preview-active"
+            },
+            {
+                "data": {
+                    "id": "1533642378731",
+                    "label": "or"
+                },
+                "position": {
+                    "x": 230,
+                    "y": 490
+                },
+                "group": "nodes",
+                "removed": false,
+                "selected": false,
+                "selectable": true,
+                "locked": false,
+                "grabbable": true,
+                "classes": "fce-shape-diamond eh-preview-active"
+            },
+            {
+                "data": {
+                    "id": "1533642387583",
+                    "label": "and"
+                },
+                "position": {
+                    "x": 430,
+                    "y": 390
+                },
+                "group": "nodes",
+                "removed": false,
+                "selected": false,
+                "selectable": true,
+                "locked": false,
+                "grabbable": true,
+                "classes": "fce-shape-diamond eh-preview-active"
+            },
+            {
+                "data": {
+                    "id": "1533642404827",
+                    "label": "冠脉穿孔"
+                },
+                "position": {
+                    "x": 610,
+                    "y": 390
+                },
+                "group": "nodes",
+                "removed": false,
+                "selected": false,
+                "selectable": true,
+                "locked": false,
+                "grabbable": true,
+                "classes": "fce-shape-star eh-preview-active"
+            }
+        ],
+        "edges": [
+            {
+                "data": {
+                    "source": "1533642105501",
+                    "target": "1533642206261",
+                    "id": "cca73e7b-c5d2-45b0-8c3a-4a3ceb60c0cd"
+                },
+                "position": {},
+                "group": "edges",
+                "removed": false,
+                "selected": false,
+                "selectable": true,
+                "locked": false,
+                "grabbable": true,
+                "classes": ""
+            },
+            {
+                "data": {
+                    "source": "1533642118204",
+                    "target": "1533642206261",
+                    "id": "61ae565b-6968-4691-93f9-e73d19e32016"
+                },
+                "position": {},
+                "group": "edges",
+                "removed": false,
+                "selected": false,
+                "selectable": true,
+                "locked": false,
+                "grabbable": true,
+                "classes": ""
+            },
+            {
+                "data": {
+                    "source": "1533642128829",
+                    "target": "1533642206261",
+                    "id": "346e08dd-3971-442d-970e-cef2b44bf9fe"
+                },
+                "position": {},
+                "group": "edges",
+                "removed": false,
+                "selected": false,
+                "selectable": true,
+                "locked": false,
+                "grabbable": true,
+                "classes": ""
+            },
+            {
+                "data": {
+                    "source": "1533642142465",
+                    "target": "1533642206261",
+                    "id": "f0b5298c-e8b0-4a60-82d9-2eab399e5699"
+                },
+                "position": {},
+                "group": "edges",
+                "removed": false,
+                "selected": false,
+                "selectable": true,
+                "locked": false,
+                "grabbable": true,
+                "classes": ""
+            },
+            {
+                "data": {
+                    "source": "1533642160261",
+                    "target": "1533642206261",
+                    "id": "4bcfa93b-6986-4155-b044-7f434dad6ac9"
+                },
+                "position": {},
+                "group": "edges",
+                "removed": false,
+                "selected": false,
+                "selectable": true,
+                "locked": false,
+                "grabbable": true,
+                "classes": ""
+            },
+            {
+                "data": {
+                    "source": "1533642196429",
+                    "target": "1533642206261",
+                    "id": "7d4ee4f5-402a-42b5-8ba4-a212e8ace05d"
+                },
+                "position": {},
+                "group": "edges",
+                "removed": false,
+                "selected": false,
+                "selectable": true,
+                "locked": false,
+                "grabbable": true,
+                "classes": ""
+            },
+            {
+                "data": {
+                    "source": "1533642279705",
+                    "target": "1533642378731",
+                    "id": "4c6f9724-4a86-4325-8643-be2bb898b5c5"
+                },
+                "position": {},
+                "group": "edges",
+                "removed": false,
+                "selected": false,
+                "selectable": true,
+                "locked": false,
+                "grabbable": true,
+                "classes": ""
+            },
+            {
+                "data": {
+                    "source": "1533642298123",
+                    "target": "1533642378731",
+                    "id": "263a68be-40cf-4685-a8b9-88723d7fd5b1"
+                },
+                "position": {},
+                "group": "edges",
+                "removed": false,
+                "selected": false,
+                "selectable": true,
+                "locked": false,
+                "grabbable": true,
+                "classes": ""
+            },
+            {
+                "data": {
+                    "source": "1533642315442",
+                    "target": "1533642378731",
+                    "id": "fe6f259d-f060-4c53-b7a0-45e477d35497"
+                },
+                "position": {},
+                "group": "edges",
+                "removed": false,
+                "selected": false,
+                "selectable": true,
+                "locked": false,
+                "grabbable": true,
+                "classes": ""
+            },
+            {
+                "data": {
+                    "source": "1533642332578",
+                    "target": "1533642378731",
+                    "id": "e618a054-d0f5-4448-9361-ba7b15d49093"
+                },
+                "position": {},
+                "group": "edges",
+                "removed": false,
+                "selected": false,
+                "selectable": true,
+                "locked": false,
+                "grabbable": true,
+                "classes": ""
+            },
+            {
+                "data": {
+                    "source": "1533642365267",
+                    "target": "1533642387583",
+                    "id": "97d9ff9a-6a8c-471b-a1a1-6a5e908ed713"
+                },
+                "position": {},
+                "group": "edges",
+                "removed": false,
+                "selected": false,
+                "selectable": true,
+                "locked": false,
+                "grabbable": true,
+                "classes": ""
+            },
+            {
+                "data": {
+                    "source": "1533642253385",
+                    "target": "1533642387583",
+                    "id": "83f92091-14bf-4a9a-8703-384796e7d991"
+                },
+                "position": {},
+                "group": "edges",
+                "removed": false,
+                "selected": false,
+                "selectable": true,
+                "locked": false,
+                "grabbable": true,
+                "classes": ""
+            },
+            {
+                "data": {
+                    "source": "1533642378731",
+                    "target": "1533642387583",
+                    "id": "fb64ea77-cdb7-43b7-8ea1-ee656c6b474b"
+                },
+                "position": {},
+                "group": "edges",
+                "removed": false,
+                "selected": false,
+                "selectable": true,
+                "locked": false,
+                "grabbable": true,
+                "classes": ""
+            },
+            {
+                "data": {
+                    "source": "1533642387583",
+                    "target": "1533642404827",
+                    "id": "a0e5eab3-9070-4795-a88a-83337801409f"
+                },
+                "position": {},
+                "group": "edges",
+                "removed": false,
+                "selected": false,
+                "selectable": true,
+                "locked": false,
+                "grabbable": true,
+                "classes": ""
+            },
+            {
+                "data": {
+                    "source": "1533642206261",
+                    "target": "1533642387583",
+                    "id": "7443535c-b240-470e-ac23-b098df71fc46"
+                },
+                "position": {},
+                "group": "edges",
+                "removed": false,
+                "selected": false,
+                "selectable": true,
+                "locked": false,
+                "grabbable": true,
+                "classes": ""
+            }
+        ]
+    },
+    "style": [
+        {
+            "selector": "node",
+            "style": {
+                "label": "data(label)",
+                "text-valign": "center"
+            }
+        },
+        {
+            "selector": "node.fce-shape-ellipse",
+            "style": {
+                "shape": "ellipse"
+            }
+        },
+        {
+            "selector": "node.fce-shape-triangle",
+            "style": {
+                "shape": "triangle"
+            }
+        },
+        {
+            "selector": "node.fce-shape-rectangle",
+            "style": {
+                "shape": "rectangle"
+            }
+        },
+        {
+            "selector": "node.fce-shape-roundrectangle",
+            "style": {
+                "shape": "roundrectangle"
+            }
+        },
+        {
+            "selector": "node.fce-shape-bottomroundrectangle",
+            "style": {
+                "shape": "bottomroundrectangle"
+            }
+        },
+        {
+            "selector": "node.fce-shape-cutrectangle",
+            "style": {
+                "shape": "cutrectangle"
+            }
+        },
+        {
+            "selector": "node.fce-shape-barrel",
+            "style": {
+                "shape": "barrel"
+            }
+        },
+        {
+            "selector": "node.fce-shape-rhomboid",
+            "style": {
+                "shape": "rhomboid"
+            }
+        },
+        {
+            "selector": "node.fce-shape-diamond",
+            "style": {
+                "shape": "diamond"
+            }
+        },
+        {
+            "selector": "node.fce-shape-pentagon",
+            "style": {
+                "shape": "pentagon"
+            }
+        },
+        {
+            "selector": "node.fce-shape-hexagon",
+            "style": {
+                "shape": "hexagon"
+            }
+        },
+        {
+            "selector": "node.fce-shape-concavehexagon",
+            "style": {
+                "shape": "concavehexagon"
+            }
+        },
+        {
+            "selector": "node.fce-shape-heptagon",
+            "style": {
+                "shape": "heptagon"
+            }
+        },
+        {
+            "selector": "node.fce-shape-octagon",
+            "style": {
+                "shape": "octagon"
+            }
+        },
+        {
+            "selector": "node.fce-shape-star",
+            "style": {
+                "shape": "star"
+            }
+        },
+        {
+            "selector": "node.fce-shape-tag",
+            "style": {
+                "shape": "tag"
+            }
+        },
+        {
+            "selector": "node.fce-shape-vee",
+            "style": {
+                "shape": "vee"
+            }
+        },
+        {
+            "selector": "node.fce-shape-polygon",
+            "style": {
+                "shape": "polygon"
+            }
+        },
+        {
+            "selector": "node:selected",
+            "style": {
+                "border-width": "6px",
+                "border-color": "#AAD8FF",
+                "border-opacity": "0.5",
+                "background-color": "#77828C",
+                "text-outline-color": "#77828C"
+            }
+        },
+        {
+            "selector": "edge",
+            "style": {
+                "label": "data(label)",
+                "font-size": "10px",
+                "curve-style": "bezier",
+                "line-style": "solid",
+                "target-arrow-shape": "triangle"
+            }
+        },
+        {
+            "selector": "edge:selected",
+            "style": {
+                "border-width": "6px",
+                "border-color": "#AAD8FF",
+                "border-opacity": "0.5",
+                "background-color": "yellow",
+                "text-outline-color": "#77828C"
+            }
+        },
+        {
+            "selector": ".eh-handle",
+            "style": {
+                "background-color": "red",
+                "width": "10px",
+                "height": "10px",
+                "shape": "ellipse",
+                "overlay-opacity": "0",
+                "border-width": "12px",
+                "border-opacity": "0"
+            }
+        },
+        {
+            "selector": "._gridParentPadding",
+            "style": {
+                "compound-sizing-wrt-labels": "exclude",
+                "padding": "20px"
+            }
+        },
+        {
+            "selector": "._gridParentPadding",
+            "style": {
+                "compound-sizing-wrt-labels": "exclude",
+                "padding": "20px"
+            }
+        },
+        {
+            "selector": ".edgebendediting-hasbendpoints",
+            "style": {
+                "curve-style": "segments",
+                "segment-distances": "fn",
+                "segment-weights": "fn",
+                "edge-distances": "node-position"
+            }
+        },
+        {
+            "selector": "node.highlighted",
+            "style": {}
+        },
+        {
+            "selector": "node.unhighlighted",
+            "style": {
+                "opacity": "0.3"
+            }
+        },
+        {
+            "selector": "edge.highlighted",
+            "style": {}
+        },
+        {
+            "selector": "edge.unhighlighted",
+            "style": {
+                "opacity": "0.3"
+            }
+        }
+    ],
+    "zoomingEnabled": true,
+    "userZoomingEnabled": false,
+    "zoom": 1,
+    "minZoom": 0.1,
+    "maxZoom": 9,
+    "panningEnabled": true,
+    "userPanningEnabled": true,
+    "pan": {
+        "x": 62,
+        "y": -117
+    },
+    "boxSelectionEnabled": true,
+    "renderer": {
+        "name": "canvas"
+    }
+}

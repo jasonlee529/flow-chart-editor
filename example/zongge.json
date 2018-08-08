@@ -1,0 +1,530 @@
+{
+    "elements": {
+        "nodes": [
+            {
+                "data": {
+                    "id": "1533636001225",
+                    "label": "术前血红蛋白"
+                },
+                "position": {
+                    "x": 70,
+                    "y": 130
+                },
+                "group": "nodes",
+                "removed": false,
+                "selected": false,
+                "selectable": true,
+                "locked": false,
+                "grabbable": true,
+                "classes": "fce-shape-rectangle eh-preview-active"
+            },
+            {
+                "data": {
+                    "id": "1533636015689",
+                    "label": "术后血红蛋白"
+                },
+                "position": {
+                    "x": 70,
+                    "y": 250
+                },
+                "group": "nodes",
+                "removed": false,
+                "selected": false,
+                "selectable": true,
+                "locked": false,
+                "grabbable": true,
+                "classes": "fce-shape-rectangle eh-preview-active"
+            },
+            {
+                "data": {
+                    "id": "1533636038745",
+                    "label": "相减"
+                },
+                "position": {
+                    "x": 190,
+                    "y": 190
+                },
+                "group": "nodes",
+                "removed": false,
+                "selected": false,
+                "selectable": true,
+                "locked": false,
+                "grabbable": true,
+                "classes": "fce-shape-triangle eh-preview-active"
+            },
+            {
+                "data": {
+                    "id": "1533636077920",
+                    "label": "值"
+                },
+                "position": {
+                    "x": 290,
+                    "y": 190
+                },
+                "group": "nodes",
+                "removed": false,
+                "selected": false,
+                "selectable": true,
+                "locked": false,
+                "grabbable": true,
+                "classes": "fce-shape-ellipse eh-preview-active"
+            },
+            {
+                "data": {
+                    "id": "1533636095449",
+                    "label": ">"
+                },
+                "position": {
+                    "x": 370,
+                    "y": 190
+                },
+                "group": "nodes",
+                "removed": false,
+                "selected": false,
+                "selectable": true,
+                "locked": false,
+                "grabbable": true,
+                "classes": "fce-shape-triangle eh-preview-active"
+            },
+            {
+                "data": {
+                    "id": "1533636114601",
+                    "label": "3"
+                },
+                "position": {
+                    "x": 450,
+                    "y": 190
+                },
+                "group": "nodes",
+                "removed": false,
+                "selected": false,
+                "selectable": true,
+                "locked": false,
+                "grabbable": true,
+                "classes": "fce-shape-ellipse eh-preview-active"
+            },
+            {
+                "data": {
+                    "id": "1533636168065",
+                    "label": "血红蛋白下降"
+                },
+                "position": {
+                    "x": 610,
+                    "y": 190
+                },
+                "group": "nodes",
+                "removed": false,
+                "selected": false,
+                "selectable": true,
+                "locked": false,
+                "grabbable": true,
+                "classes": "fce-shape-rectangle eh-preview-active"
+            },
+            {
+                "data": {
+                    "id": "1533636194704",
+                    "label": "纵膈血肿"
+                },
+                "position": {
+                    "x": 590,
+                    "y": 330
+                },
+                "group": "nodes",
+                "removed": false,
+                "selected": false,
+                "selectable": true,
+                "locked": false,
+                "grabbable": true,
+                "classes": "fce-shape-rectangle eh-preview-active"
+            },
+            {
+                "data": {
+                    "id": "1533636202376",
+                    "label": "and"
+                },
+                "position": {
+                    "x": 710,
+                    "y": 250
+                },
+                "group": "nodes",
+                "removed": false,
+                "selected": false,
+                "selectable": true,
+                "locked": false,
+                "grabbable": true,
+                "classes": "fce-shape-diamond eh-preview-active"
+            },
+            {
+                "data": {
+                    "id": "1533636217560",
+                    "label": "纵膈血肿"
+                },
+                "position": {
+                    "x": 830,
+                    "y": 250
+                },
+                "group": "nodes",
+                "removed": false,
+                "selected": false,
+                "selectable": true,
+                "locked": false,
+                "grabbable": true,
+                "classes": "fce-shape-roundrectangle eh-preview-active"
+            }
+        ],
+        "edges": [
+            {
+                "data": {
+                    "source": "1533636168065",
+                    "target": "1533636202376",
+                    "id": "4e5e6fa8-55d4-4892-94e3-47a63c33d34a"
+                },
+                "position": {},
+                "group": "edges",
+                "removed": false,
+                "selected": false,
+                "selectable": true,
+                "locked": false,
+                "grabbable": true,
+                "classes": ""
+            },
+            {
+                "data": {
+                    "source": "1533636001225",
+                    "target": "1533636038745",
+                    "id": "298ca8ab-9928-4470-99d5-b2720aeaf3ad"
+                },
+                "position": {},
+                "group": "edges",
+                "removed": false,
+                "selected": false,
+                "selectable": true,
+                "locked": false,
+                "grabbable": true,
+                "classes": ""
+            },
+            {
+                "data": {
+                    "source": "1533636015689",
+                    "target": "1533636038745",
+                    "id": "5496089e-d038-415e-8957-ced8eb3f47d8"
+                },
+                "position": {},
+                "group": "edges",
+                "removed": false,
+                "selected": false,
+                "selectable": true,
+                "locked": false,
+                "grabbable": true,
+                "classes": ""
+            },
+            {
+                "data": {
+                    "source": "1533636038745",
+                    "target": "1533636077920",
+                    "id": "1c12b49b-37ef-4bef-9278-193e4e9ef4f8"
+                },
+                "position": {},
+                "group": "edges",
+                "removed": false,
+                "selected": false,
+                "selectable": true,
+                "locked": false,
+                "grabbable": true,
+                "classes": ""
+            },
+            {
+                "data": {
+                    "source": "1533636077920",
+                    "target": "1533636095449",
+                    "id": "f5cee52b-9695-4f45-b430-76ca818239fa"
+                },
+                "position": {},
+                "group": "edges",
+                "removed": false,
+                "selected": false,
+                "selectable": true,
+                "locked": false,
+                "grabbable": true,
+                "classes": ""
+            },
+            {
+                "data": {
+                    "source": "1533636095449",
+                    "target": "1533636114601",
+                    "id": "2f66f01b-5d44-4ab4-9a88-adfd3e3f55a8"
+                },
+                "position": {},
+                "group": "edges",
+                "removed": false,
+                "selected": false,
+                "selectable": true,
+                "locked": false,
+                "grabbable": true,
+                "classes": ""
+            },
+            {
+                "data": {
+                    "source": "1533636194704",
+                    "target": "1533636202376",
+                    "id": "64513fc9-5409-4d5e-91c9-bf22e8401f35"
+                },
+                "position": {},
+                "group": "edges",
+                "removed": false,
+                "selected": false,
+                "selectable": true,
+                "locked": false,
+                "grabbable": true,
+                "classes": ""
+            },
+            {
+                "data": {
+                    "source": "1533636202376",
+                    "target": "1533636217560",
+                    "id": "97acfd17-e163-4e83-b02e-8520281314d3"
+                },
+                "position": {},
+                "group": "edges",
+                "removed": false,
+                "selected": false,
+                "selectable": true,
+                "locked": false,
+                "grabbable": true,
+                "classes": ""
+            },
+            {
+                "data": {
+                    "source": "1533636114601",
+                    "target": "1533636168065",
+                    "id": "98c347ec-34c7-4f9c-9edf-0027801d8ee3"
+                },
+                "position": {},
+                "group": "edges",
+                "removed": false,
+                "selected": false,
+                "selectable": true,
+                "locked": false,
+                "grabbable": true,
+                "classes": ""
+            }
+        ]
+    },
+    "style": [
+        {
+            "selector": "node",
+            "style": {
+                "label": "data(label)",
+                "text-valign": "center"
+            }
+        },
+        {
+            "selector": "node.fce-shape-ellipse",
+            "style": {
+                "shape": "ellipse"
+            }
+        },
+        {
+            "selector": "node.fce-shape-triangle",
+            "style": {
+                "shape": "triangle"
+            }
+        },
+        {
+            "selector": "node.fce-shape-rectangle",
+            "style": {
+                "shape": "rectangle"
+            }
+        },
+        {
+            "selector": "node.fce-shape-roundrectangle",
+            "style": {
+                "shape": "roundrectangle"
+            }
+        },
+        {
+            "selector": "node.fce-shape-bottomroundrectangle",
+            "style": {
+                "shape": "bottomroundrectangle"
+            }
+        },
+        {
+            "selector": "node.fce-shape-cutrectangle",
+            "style": {
+                "shape": "cutrectangle"
+            }
+        },
+        {
+            "selector": "node.fce-shape-barrel",
+            "style": {
+                "shape": "barrel"
+            }
+        },
+        {
+            "selector": "node.fce-shape-rhomboid",
+            "style": {
+                "shape": "rhomboid"
+            }
+        },
+        {
+            "selector": "node.fce-shape-diamond",
+            "style": {
+                "shape": "diamond"
+            }
+        },
+        {
+            "selector": "node.fce-shape-pentagon",
+            "style": {
+                "shape": "pentagon"
+            }
+        },
+        {
+            "selector": "node.fce-shape-hexagon",
+            "style": {
+                "shape": "hexagon"
+            }
+        },
+        {
+            "selector": "node.fce-shape-concavehexagon",
+            "style": {
+                "shape": "concavehexagon"
+            }
+        },
+        {
+            "selector": "node.fce-shape-heptagon",
+            "style": {
+                "shape": "heptagon"
+            }
+        },
+        {
+            "selector": "node.fce-shape-octagon",
+            "style": {
+                "shape": "octagon"
+            }
+        },
+        {
+            "selector": "node.fce-shape-star",
+            "style": {
+                "shape": "star"
+            }
+        },
+        {
+            "selector": "node.fce-shape-tag",
+            "style": {
+                "shape": "tag"
+            }
+        },
+        {
+            "selector": "node.fce-shape-vee",
+            "style": {
+                "shape": "vee"
+            }
+        },
+        {
+            "selector": "node.fce-shape-polygon",
+            "style": {
+                "shape": "polygon"
+            }
+        },
+        {
+            "selector": "node:selected",
+            "style": {
+                "border-width": "6px",
+                "border-color": "#AAD8FF",
+                "border-opacity": "0.5",
+                "background-color": "#77828C",
+                "text-outline-color": "#77828C"
+            }
+        },
+        {
+            "selector": "edge",
+            "style": {
+                "label": "data(label)",
+                "font-size": "10px",
+                "curve-style": "bezier",
+                "line-style": "solid",
+                "target-arrow-shape": "triangle"
+            }
+        },
+        {
+            "selector": "edge:selected",
+            "style": {
+                "border-width": "6px",
+                "border-color": "#AAD8FF",
+                "border-opacity": "0.5",
+                "background-color": "yellow",
+                "text-outline-color": "#77828C"
+            }
+        },
+        {
+            "selector": ".eh-handle",
+            "style": {
+                "background-color": "red",
+                "width": "10px",
+                "height": "10px",
+                "shape": "ellipse",
+                "overlay-opacity": "0",
+                "border-width": "12px",
+                "border-opacity": "0"
+            }
+        },
+        {
+            "selector": "._gridParentPadding",
+            "style": {
+                "compound-sizing-wrt-labels": "exclude",
+                "padding": "20px"
+            }
+        },
+        {
+            "selector": "._gridParentPadding",
+            "style": {
+                "compound-sizing-wrt-labels": "exclude",
+                "padding": "20px"
+            }
+        },
+        {
+            "selector": ".edgebendediting-hasbendpoints",
+            "style": {
+                "curve-style": "segments",
+                "segment-distances": "fn",
+                "segment-weights": "fn",
+                "edge-distances": "node-position"
+            }
+        },
+        {
+            "selector": "node.highlighted",
+            "style": {}
+        },
+        {
+            "selector": "node.unhighlighted",
+            "style": {
+                "opacity": "0.3"
+            }
+        },
+        {
+            "selector": "edge.highlighted",
+            "style": {}
+        },
+        {
+            "selector": "edge.unhighlighted",
+            "style": {
+                "opacity": "0.3"
+            }
+        }
+    ],
+    "zoomingEnabled": true,
+    "userZoomingEnabled": false,
+    "zoom": 1,
+    "minZoom": 0.1,
+    "maxZoom": 9,
+    "panningEnabled": true,
+    "userPanningEnabled": true,
+    "pan": {
+        "x": 35,
+        "y": 9
+    },
+    "boxSelectionEnabled": true,
+    "renderer": {
+        "name": "canvas"
+    }
+}
